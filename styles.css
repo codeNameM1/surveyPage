@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #0c0f0a url(photos/background.jpeg) no-repeat fixed center;
+  background-size: cover;
+  font-size: 1rem;
+  margin: 0;
+  color: yellow;
+}
+
+#title-description {
+  color: #fff;
+  text-align: center;
+  padding: 30px 30px;
+}
+
+/* heading title */
+#title {
+  font-weight: 500;
+  font-size: 3em;
+  justify-self: auto;
+}
+
+#description {
+  font-style: italic;
+  font-size: 1rem;
+}
+/* name-email-phone labels */
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+/* submit button  */
+button {
+  border: none;
+}
+
+/* survery page start */
+.full-survey-box {
+  display: grid;
+  justify-content: center;
+  width: 50em;
+  padding: 15px 15px;
+  margin: 3 auto 0 auto;
+  color: #7899d4;
+  background-color: #700548;
+  border: 5px solid #fe9920;
+  border-radius: 0.25rem;
+}
+
+/* input radio/ checkboxes */
+.input-radio,
+.input-checkboxes {
+  display: inline-flex;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}

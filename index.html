@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mSurveyPage</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+
+    <div id="title-description">
+      <h1 id="title">cNM1 Survey</h1>
+      <p id="description">Thank you for helping me become a better being.</p>
+    </div>
+
+
+    <div class="full-survey-box">
+
+    <form action="" id="survey-form">
+       <div id="name-number-email">
+          <label id="name-label">Name</label>
+          <input id="name" type="text" placeholder="First/Last Name" required />
+          <br>
+          <br>
+          <label id="email-label">Email</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="email@address.com"
+            required
+          />
+          <br>
+          <br>
+          <label id="number-label">Age</label>
+          <input
+          id="number"
+          type="number"
+          placeholder="Years-on-earth"
+          required
+          min="18"
+          max="99"
+        />
+        </div>
+<br>
+<br>
+        <div id="human-status">
+          <p id="human-status">What is your Being?</p>
+          <input type="radio" class="radio" name="radio-btn" value="1" />Human
+          <input type="radio" class="radio" name="radio-btn" value="2" />Animal
+          <input
+            type="radio"
+            class="radio"
+            name="radio-btn"
+            value="3"
+          />Extraterrestrial
+          <input type="radio" class="radio" name="radio-btn" value="4" />Deity
+          <input
+            type="radio"
+            class="radio"
+            name="radio-btn"
+            value="5"
+          />SubHuman
+        </div>
+<br>
+<br>
+        <div id="dropdown-best-option">
+          <p id="best-love-title">What's your form of Love/Belief?</p>
+          <select name="dropdown-best-option" id="dropdown">
+            <option value="">Choose your best form of Love</option>
+            <option value="mother-parent">Mother/Guardian</option>
+            <option value="father-parent">Father/Parent</option>
+            <option value="siblings-choice">Siblings</option>
+            <option value="friends-choice">Friends/Homies</option>
+            <option value="self-love">Myself/godWithIn</option>
+            <option value="church-choice">Building of Worship</option>
+          </select>
+        </div>
+<br>
+<br>
+        <div id="radio-btn-choice">
+          <p id="radio-btn-title">
+            What stage of life are you currently living?
+          </p>
+          <input class="radio" type="radio" name="radio-btn" value="6" />Teach
+          Others
+          <input class="radio" type="radio" name="radio-btn" value="7" />Learn
+          all I can
+          <input class="radio" type="radio" name="radio-btn" value="8" />Just
+          Live and Let Live
+        </div>
+<br>
+<br>
+        <div id="checkboxes">
+          <p id="checkboxes-title">What type of ways do you serve?</p>
+          <input type="checkbox" value="1" />Believe in God.
+          <input type="checkbox" value="2" />Believe in Self.
+          <input type="checkbox" value="3" />Help the Hopeless.
+          <input type="checkbox" value="4" />Give unconditional.
+          <input type="checkbox" value="5" />In the Spirit of RobinHood.
+          <input type="checkbox" value="6" />Eric Killmonger is my ancestor.
+          <input type="checkbox" value="7" />Everyone love Everyone.
+          <input type="checkbox" value="8" />Too nieve to believe.
+        </div>
+<br>
+<br>
+        <div id="comments-questions-box">
+          <p id="comments-box">How do you add value to our community?</p>
+          <textarea
+            name="comments-questions"
+            id="comments-questions"
+            cols="45"
+            rows="20"
+          ></textarea>
+<br>
+<br>
+          <div id="submit-btn">
+            <button id="submit">Submit</button>
+          </div>
+
+        </div>
+
+       </div>
+      </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
